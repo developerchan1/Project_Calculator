@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:text="Calculator"
             android:textSize="23dp"
-            android:textColor="#000000"
+            android:textColor="#000001"
             android:fontFamily="@font/product_sans_regular"/>
 
     </Toolbar>
