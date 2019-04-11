@@ -23,18 +23,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#73efff"
         android:orientation="vertical"
-        android:padding="30dp"
-        android:background="#73efff">
+        android:padding="30dp">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_marginTop="20dp"
             android:background="@drawable/button"
             android:backgroundTint="#ffffff"
-            android:layout_marginTop="20dp"
+            android:orientation="vertical"
             android:padding="15dp">
 
             <LinearLayout
@@ -60,8 +60,7 @@
                     android:layout_margin="10dp"
                     android:background="@drawable/button"
                     android:backgroundTint="#f7f7ff"
-                    android:inputType="numberDecimal|numberSigned"
-                    />
+                    android:inputType="numberDecimal|numberSigned" />
             </LinearLayout>
 
             <LinearLayout
@@ -98,8 +97,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginTop="15dp"
-                android:src="#FFFFFF">
-            </Spinner>
+                android:src="#FFFFFF"></Spinner>
 
         </LinearLayout>
 
